@@ -1,2 +1,53 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+
+<div class="container d-flex flex-column">
+  <h1>Contact</h1>
+  <h5 class="fw-light mb-4">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempore
+    numquam eum, asperiores beatae omnis suscipit dolorum illum cupiditate earum
+    hic, asperiores beatae omnis suscipit dolorum illum cupiditate earum hic.
+  </h5>
+  <form
+    class="container p-0 bg-light border rounded w-70 align-self-center"
+    style="width: 60%"
+  >
+    <div class="row g-2 p-2">
+      <div class="mb-3 col-md-3 text-end">
+        <label for="your-email" class="form-label p-1 my-0 mx-4 fw-bold"
+          >Your E-mail</label
+        >
+      </div>
+      <div class="col-md-9">
+        <input
+          type="email"
+          class="form-control"
+          id="your-email"
+          placeholder="Your email"
+        />
+      </div>
+      <div class="mb-3 col-md-3 text-end">
+        <label for="your-message" class="form-label p-1 my-0 mx-4 fw-bold"
+          >Your message</label
+        >
+      </div>
+      <div class="col-md-9">
+        <textarea
+          name="your-message"
+          id="your-message"
+          rows="4"
+          class="form-control"
+          placeholder="Please enter your message here..."
+        ></textarea>
+      </div>
+      <div class="w-100 d-flex justify-content-end">
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg mb-3"
+          style="background-color: #2b7dc1"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
